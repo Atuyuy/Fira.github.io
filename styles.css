@@ -1,0 +1,93 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ffe6f0; /* Background warna pink muda */
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+header {
+    background: #ff66b2; /* Background header warna pink gelap */
+    color: #fff;
+    padding-top: 30px;
+    min-height: 70px;
+    border-bottom: #ff99cc 3px solid; /* Border bawah warna pink lebih terang */
+}
+
+header img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    display: block;
+    margin: 0 auto;
+}
+
+header h1 {
+    text-align: center;
+    margin: 0;
+    padding: 10px 0;
+}
+
+header p {
+    text-align: center;
+    margin: 10px 0;
+    font-size: 1.2em;
+}
+
+section {
+    margin: 20px 0;
+    padding: 20px;
+    background: #fff; /* Background putih untuk kontras */
+    border: 1px solid #ff99cc; /* Border warna pink */
+}
+
+h2 {
+    text-align: center;
+    color: #ff66b2; /* Warna judul pink gelap */
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+ul li {
+    padding: 10px 0;
+    border-bottom: 1px #ff99cc dotted; /* Border bawah item list warna pink */
+}
+
+ul li:last-child {
+    border-bottom: none;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #ff66b2; /* Background footer warna pink gelap */
+    color: #fff;
+}
+
+footer ul {
+    list-style: none;
+    padding: 0;
+}
+
+footer ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+footer ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+footer ul li a:hover {
+    text-decoration: underline;
+}
